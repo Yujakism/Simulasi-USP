@@ -1,0 +1,37 @@
+body{
+    background-color:#f0f0f0;
+    display: flex;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;    
+}
+/* form login */
+.login_container{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+    width: 350px;
+    border-radius: 8px;
+    display: flex;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.user, .pass{
+    width: 200px;
+    border-radius: 7px;
+    background-color: #f0f0f0;
+}
+.login{
+    width: 208px;
+    background-color: rgb(21, 238, 21);
+    height: 30px;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.login:hover{
+    background-color: rgb(7, 53, 7);
+  
+}
